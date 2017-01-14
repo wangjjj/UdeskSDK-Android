@@ -417,7 +417,7 @@ public class MessageAdatper extends BaseAdapter {
                 case MSG_IMG_R:
                     this.isLeft = false;
                     if (!TextUtils.isEmpty(UdeskSDKManager.getInstance().getCustomerUrl())){
-                          getImageLoader(mContext).displayImage(UdeskBaseInfo.customerUrl, ivHeader, customerHeadOptions);
+                          getImageLoader(mContext).displayImage(UdeskSDKManager.getInstance().getCustomerUrl(), ivHeader, customerHeadOptions);
                     }else {
                         ivHeader.setImageResource(R.drawable.udesk_im_default_user_avatar);
                     }
