@@ -1,6 +1,18 @@
 # UdeskSDK Android 3.5 开发者文档
 
 ## 注意
+
+### 3.5.1 更新日志 
+``` java
+1聊天表情的删除是的优化；
+
+2 获取聊天记录的最后一条  和 获取客服聊天记录最后一条
+UdeskDBManager类中的方法如下
+public MessageInfo getLastMessage(){}
+public MessageInfo getAgentLastMessage() {}
+```
+
+
 ### 3.5更新重要说明
 ``` java
     Udesk系统对移动sdk栏的设计改动比较大，增加了创建多个应用和对每个应用都支持独立的配置。
