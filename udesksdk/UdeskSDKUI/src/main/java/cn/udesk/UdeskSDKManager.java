@@ -250,7 +250,7 @@ public class UdeskSDKManager {
             UdeskHttpFacade.getInstance().setUserInfo(context, getDomain(context),
                     getAppkey(context), getSdkToken(context),
                     getUdeskConfig().defualtUserInfo, getUdeskConfig().definedUserTextField,
-                    getUdeskConfig().definedUserRoplist, getAppId(context), new UdeskCallBack() {
+                    getUdeskConfig().definedUserRoplist,getUdeskConfig().channel, getAppId(context), new UdeskCallBack() {
 
                         @Override
                         public void onSuccess(String string) {

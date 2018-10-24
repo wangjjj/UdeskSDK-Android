@@ -18,7 +18,7 @@ public interface IChatActivityView {
 
 	void updatePreSessionStatus(String pre_session_id);
 
-	boolean getPressionStatus();
+	boolean getPressionStatus(MessageInfo msg);
 	
 	void dealAgentInfo(AgentInfo agentInfo);
 	

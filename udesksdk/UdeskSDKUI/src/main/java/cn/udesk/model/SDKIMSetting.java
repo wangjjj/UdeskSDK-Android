@@ -52,6 +52,7 @@ public class SDKIMSetting {
     private Object im_survey_show_type;
     private Object leave_message_guide;
     private Object show_robot_times;
+    private Object  robot_name;
 
 //    "vcall":true,
 //            "vc_app_id":"fbcc5d3df6dfa25c418910a3611020eb",
@@ -298,5 +299,13 @@ public class SDKIMSetting {
 
     public void setShow_robot_times(Object show_robot_times) {
         this.show_robot_times = show_robot_times;
+    }
+
+    public Object getRobot_name() {
+        return robot_name;
+    }
+
+    public void setRobot_name(Object robot_name) {
+        this.robot_name = robot_name;
     }
 }

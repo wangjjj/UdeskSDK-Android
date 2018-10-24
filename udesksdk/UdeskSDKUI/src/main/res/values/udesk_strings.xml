@@ -119,6 +119,8 @@
     <string name="camera_view_tips">轻触拍照，长按摄像</string>
     <string name="udesk_too_short">录制时间过短,请重新录制</string>
     <string name="udesk_audio_permission_error">请检查是否开启了应用的录音权限</string>
+    <string name="udesk_can_not_be_evaluated">还未分配客服，不能进行评价</string>
+    <string name="udesk_can_not_be_video">还未分配客服，不能发起视频</string>
 
 
 </resources>
