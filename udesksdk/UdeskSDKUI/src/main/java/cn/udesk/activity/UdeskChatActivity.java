@@ -2683,11 +2683,9 @@ public class UdeskChatActivity extends UdeskBaseActivity implements IChatActivit
     private void setUdeskImContainerVis(int vis) {
         if (UdeskSDKManager.getInstance().getUdeskConfig().isUseVoice) {
             mAudioImg.setVisibility(vis);
-            mBtnAudio.setVisibility(vis);
-            if (vis == View.VISIBLE) {
-                mInputEditView.setVisibility(View.GONE);
-            } else {
-                mInputEditView.setVisibility(vis);
+            if (vis == View.GONE) {
+                mInputEditView.setVisibility(View.VISIBLE);
+                mBtnAudio.setVisibility(View.GONE);
             }
         }
         showEmoji();
