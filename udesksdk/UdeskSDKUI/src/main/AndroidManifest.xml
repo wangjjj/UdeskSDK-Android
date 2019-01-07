@@ -23,7 +23,8 @@
             android:configChanges="screenSize|orientation|keyboardHidden"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
-            android:theme="@style/Udesk_Theme" />
+            android:theme="@style/Udesk_Theme"
+            android:networkSecurityConfig="@xml/udesk_network_security_config"/>
         <activity
             android:name="cn.udesk.activity.UdeskHelperArticleActivity"
             android:configChanges="screenSize|orientation|keyboardHidden"
